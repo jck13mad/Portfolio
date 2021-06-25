@@ -1,5 +1,5 @@
 class Api::v1::CommentsController < ApplicationController
-  before_action :get_project, only: [ :index, :create, :destroy ]
+  before_action :get_project, only: [ :index, :create ]
 
   # GET /comments or /comments.json
   def index
@@ -16,11 +16,6 @@ class Api::v1::CommentsController < ApplicationController
     else
       render json: { message: 'Error: Failed to add comment.'}
     end
-  end
-
-  # DELETE /comments/1 or /comments/1.json
-  def destroy
-    @project.comment.id.destroy
   end
 
   private
