@@ -6,6 +6,7 @@ class CreateProjects < ActiveRecord::Migration[6.1]
       t.string :image_url
       t.string :github_url
       t.text :label
+      t.string :blog_url
 
       t.timestamps
     end
