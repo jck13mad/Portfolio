@@ -1,4 +1,4 @@
-class Api::v1::CommentsController < ApplicationController
+class Api::V1::CommentsController < ApplicationController
   before_action :get_project, only: [ :index, :create ]
 
   # GET /comments or /comments.json

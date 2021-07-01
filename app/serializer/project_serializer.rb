@@ -13,5 +13,5 @@ class ProjectSerializer
         }
 
         @project_collection.to_json(options)
-      end
+    end
 end

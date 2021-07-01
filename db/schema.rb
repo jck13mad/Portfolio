@@ -25,6 +25,8 @@ ActiveRecord::Schema.define(version: 2021_06_25_200027) do
     t.text "description"
     t.string "image_url"
     t.string "github_url"
+    t.text "label"
+    t.string "blog_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
