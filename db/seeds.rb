@@ -18,14 +18,14 @@ project_data = [
         description: "As my first project for Flatiron, I built a Covid-19 News Tracker to find the latest news about the pandemic from 4 of the top news companies in the United States. After selecting which news source you would like to view stories from, the stories populate in numbered fashion. These stories are scraped directly from each news source's website using nokogiri, and the user can select which story they would like to dive deeper into. The story is then displayed on the command line for further inspection.",
         github_url: "https://github.com/jck13mad/covid_19_updates",
         image_url: "./images/covid19Updates.png",
-        label: "cli gem ruby",
+        label: "CLI Gem Ruby Web-Scraper",
         blog_url: "https://jck13mad.blogspot.com/2020/04/without-doubt-this-was-hardest-i-have.html"
     },
 
     {
         id: 2,
         name: "Heading Up",
-        description: "Heading Up is a simple Sinatra Application using ActiveRecord that has brought my two passions of lacrosse and coding together. This application was built to show the MVC framework, as well as a showcase for some RESTful API and CRUD abilities. If you would like to view the code behind the machine, this can be found on my github. Thank you and I hope you enjoy!",
+        description: "Heading Up is a simple Sinatra Application using ActiveRecord that has brought my two passions of lacrosse and coding together. This application was built to show the MVC framework, as well as a showcase for some RESTful API and CRUD abilities. If you would like to view the code behind the machine, this can be found on my github. I had done this project before in a different way that can be found https://github.com/jck13mad/HeadingUp-secondary. Honestly, I like the first one more. Thank you and I hope you enjoy!",
         github_url: "https://github.com/jck13mad/headingup",
         image_url: "./images/headingUp.png",
         label: "RESTful Ruby Sinatra MVC CRUD Shopping User-Account SQL",
